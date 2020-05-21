@@ -3,7 +3,6 @@ package org.springframework.boot.autoconfigure.klock.lock;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.boot.autoconfigure.klock.model.LockInfo;
-
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
